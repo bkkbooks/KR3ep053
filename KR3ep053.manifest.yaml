@@ -1,0 +1,36 @@
+canonical_identifier: bkk:krp/KR3ep053/v1
+canonical_location: https://kanripo.org/bkk/KR3ep053/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 退庵醫案
+  identifiers:
+    krp: KR3ep053
+  tags:
+    kr-categories: KR3ep
+  source:
+    repository: tls-texts
+    path: data/tls/KR3ep053.xml
+  edition:
+    short: bkk
+assets:
+  parts:
+  - {seq: 0, filename: KR3ep053_000.yaml, hash: 'sha256:5a0c699e26c83aa3e62c29585ca680083807c0842eb63bd8dfe8b4499c487886'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR3ep053_000.markers.yaml, hash: 'sha256:248d0191e03c9181b0afe31f3cce652cf48e1a7031dddea0e84ce55a070d2312'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR3ep053_jc_000-d2.h1s1
+    span:
+    - body
+    - 0
+    - 7641
+  label: 正文
+  type: section
+  level: 1
+hash: sha256:4941eb7852627ff4bd34963eaf13321dfd5deba08100f3cfc89f4bb7890939c5
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
